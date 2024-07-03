@@ -7,7 +7,7 @@ import random
 from evaluate_script import evaluate_script, generate_pdf
 
 # Set the API key directly in the script
-os.environ["GROQ_API_KEY"] = "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"  # Replace with your actual API key
+os.environ["GROQ_API_KEY"] = "YOUR-GROQ-API-KEY"  # Replace with your actual API key
 
 # Initialize Groq client
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
